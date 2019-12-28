@@ -6,7 +6,6 @@ bucky is the result of developing paranoia of my workstation dying in front of m
 ## config (draft)
 ```json
 {
-{
     "interval": "60",
     "backups": [
         {
@@ -14,6 +13,5 @@ bucky is the result of developing paranoia of my workstation dying in front of m
             "dst": "10.0.1.1:/backup/repos/bucky"
         }
     ]
-}
 }
 ```
