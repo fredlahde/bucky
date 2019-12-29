@@ -6,12 +6,13 @@ bucky is the result of developing paranoia of my workstation dying in front of m
 ## config (draft)
 ```json
 {
-   "interval" : 60,
    "backups" : [
       {
+         "src" : "/foo/bar",
          "dst" : "/bar/baz",
-         "src" : "/foo/bar"
-         }
-   ]
+         "excludeGitIgnore" : true
+      }
+   ],
+   "interval" : 60
 }
 ```
